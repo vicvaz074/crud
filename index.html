@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación CRUD</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-wrap">
+        <header>
+            <h1>Aplicación CRUD</h1>
+        </header>
+
+        <div class="container">
+            <!-- Formulario para agregar -->
+            <div class="add-form">
+                <input type="text" id="itemName" placeholder="Nombre de la tarea">
+                <input type="text" id="itemDescription" placeholder="Descripción">
+                <button onclick="addItem()">Agregar</button>
+            </div>
+
+            <!-- Lista de ítems -->
+            <ul id="itemList">
+                <!-- Los ítems se agregarán aquí dinámicamente -->
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        Desarrollado por Vicente Vázquez Ramírez
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

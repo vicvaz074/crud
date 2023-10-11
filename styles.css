@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-form input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+}
+
+.add-form button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilos para los botones */
+button.edit, button.delete {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button.edit {
+    background-color: #FFC107;
+    color: #fff;
+}
+
+button.delete {
+    background-color: #DC3545;
+    color: #fff;
+}
+
+/* Estilos para el header y footer */
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos para hacer la aplicación responsiva */
+@media only screen and (max-width: 600px) {
+    .container {
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+/* Estilos para mantener el footer al final de la página */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.page-wrap {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
